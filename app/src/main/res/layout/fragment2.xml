@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:background="@color/darkblue"
+        android:gravity="center"
+        >
+        <TextView
+            android:textColor="@color/grey"
+            android:textSize="40sp"
+            android:id="@+id/username"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/login"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:textColor="@color/grey"
+            android:text="登录"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:textColor="@color/grey"
+            android:text="注册"/>
+
+    </RelativeLayout>
+
+  <RelativeLayout
+      android:layout_weight="0.5"
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="0dp">
+      <TextView
+          android:id="@+id/moreMes"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_marginTop="0dp"
+          android:paddingLeft="20sp"
+          android:text="我的收藏"
+          android:textColor="#D5000000"
+          android:textSize="25sp" />
+
+      <View
+          android:id="@+id/line2"
+          android:layout_width="match_parent"
+          android:layout_height="8dp"
+          android:layout_marginTop="45dp"
+          android:background="#1E000000" />
+
+
+
+  </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="0.8"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </RelativeLayout>
+
+</LinearLayout>

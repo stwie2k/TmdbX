@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="video_type">
+        <item>Movie</item>
+        <item>TV</item>
+    </string-array>
+
+    <string-array name="movie_genre">
+        <item>All</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+        <item>TV Movie</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+
+    <string-array name="tv_genre">
+        <item>All</item>
+        <item>Action/Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Kids</item>
+        <item>Mystery</item>
+        <item>News</item>
+        <item>Reality</item>
+        <item>Sci-Fi/Fantasy</item>
+        <item>Soap</item>
+        <item>Talk</item>
+        <item>War/Politics</item>
+        <item>Western</item>
+    </string-array>
+
+    <string-array name="movie_years">
+        <item>Year</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>Before 2010</item>
+    </string-array>
+
+    <string-array name="movie_language">
+        <item>English</item>
+        <item>Mandarin</item>
+        <item>Japanese</item>
+        <item>German</item>
+    </string-array>
+
+
+</resources>
